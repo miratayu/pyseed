@@ -4,7 +4,7 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 
-def call_hello(text: str = 'World') -> None:
+def call_hello(text: str = "World") -> None:
     logger.info(f"Hello {text}!!")
 
 
